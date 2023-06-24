@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "803247648143",
+    "project_id": "soul-food-263c7",
+    "storage_bucket": "soul-food-263c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803247648143:android:11b6bf539ba54199592ffa",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803247648143-sskpktm7ti6naj2q84spllvac59t4472.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVvt-w5Yt7kfjA7UYQdOk_FoWD6pEZElA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803247648143-sskpktm7ti6naj2q84spllvac59t4472.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

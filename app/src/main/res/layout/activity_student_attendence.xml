@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Student_Attendence">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Mark Attendence"
+       android:background="@color/Actionbar"
+       android:textSize="35sp"
+       android:textStyle="bold"
+       android:textColor="@color/black"
+       android:fontFamily="cursive"
+       android:gravity="center"
+       android:layout_marginTop="30dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp" />
+
+
+ <EditText
+     android:id="@+id/attendence_name"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20dp"
+     android:layout_marginRight="20dp"
+     android:layout_marginTop="40dp"
+     android:background="@drawable/backgroundeditview"
+     android:ems="10"
+     android:gravity="center"
+     android:hint="Name"
+     android:minHeight="48dp"
+     android:textSize="20sp"
+     android:textStyle="bold" />
+
+ <EditText
+     android:id="@+id/attendence_roomno"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20dp"
+     android:layout_marginRight="20dp"
+     android:layout_marginTop="20dp"
+     android:background="@drawable/backgroundeditview"
+     android:ems="10"
+     android:gravity="center"
+     android:hint="Room Number"
+     android:minHeight="48dp"
+     android:textSize="20sp"
+     android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Would you like to have"
+        android:textColor="@color/Actionbar"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+
+        <Button
+            android:id="@+id/AttendanceBreakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#804634"
+            android:text="BREAKFAST"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AttendanceLunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#804634"
+            android:text="LUNCH"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AttendanceSnacks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#804634"
+            android:text="SNACKS"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AttendanceDinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#804634"
+            android:text="DINNER"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>

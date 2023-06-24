@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".DinnerListActivity"
+            android:exported="false"
+            android:label="Dinner List"
+            android:parentActivityName=".StudentDetailAdminActivity"/>
+        <activity
+            android:name=".SnacksListActivity"
+            android:exported="false"
+            android:label="Snacks List"
+            android:parentActivityName=".StudentDetailAdminActivity"/>
+        <activity
+            android:name=".LunchListActivity"
+            android:exported="false"
+            android:label="Lunch List"
+            android:parentActivityName=".StudentDetailAdminActivity"/>
+        <activity
+            android:name=".BreakfastListActivity"
+            android:exported="false"
+            android:label="Breakfast List"
+            android:parentActivityName=".StudentDetailAdminActivity"/>
+        <activity
+            android:name=".Student_Attendence"
+            android:exported="false"
+            android:label="Attendance"
+            android:parentActivityName=".StudentMainMenuActivity"/>
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false"
+            android:label="Notification"
+            android:parentActivityName=".menuactivity" />
+        <activity
+            android:name=".AddMenuContentActivity"
+            android:exported="false"
+            android:label="Add Menu"
+            android:parentActivityName=".MainMenuAdminActivity" />
+        <activity
+            android:name=".MainMenuAdminActivity"
+            android:exported="false"
+            android:label="Main Menu"
+            android:parentActivityName=".menuactivity" />
+        <activity
+            android:name=".StudentDetailAdminActivity"
+            android:exported="false"
+            android:label="Student Details "
+            android:parentActivityName=".menuactivity" />
+        <activity
+            android:name=".SpecialNotesAdminActivity"
+            android:exported="false"
+            android:label="Special Notes"
+            android:parentActivityName=".menuactivity" />
+        <activity
+            android:name=".FeedbackAdminActivity"
+            android:exported="false"
+            android:label="Feedback"
+            android:parentActivityName=".menuactivity" />
+        <activity
+            android:name=".StudentMainMenuActivity"
+            android:exported="false"
+            android:label="Main Menu"
+            android:parentActivityName=".StudentMenuActivity" />
+        <activity
+            android:name=".MilkDetailStudentActivity"
+            android:exported="false"
+            android:label="Milk Details"
+            android:parentActivityName=".StudentMenuActivity" />
+        <activity
+            android:name=".ImpNoticeStudentActivity"
+            android:exported="false"
+            android:label="Important Notice"
+            android:parentActivityName=".StudentMenuActivity" />
+        <activity
+            android:name=".MilkdetailsAdminActivity"
+            android:exported="false"
+            android:label="Milk Details"
+            android:parentActivityName=".menuactivity" />
+        <activity
+            android:name=".ImpNoticeAdminActivity"
+            android:exported="false"
+            android:label="Important Notice"
+            android:parentActivityName=".menuactivity" />
+        <activity
+            android:name=".SpecialNotesStudentActivity"
+            android:exported="false"
+            android:label="Special Notes"
+            android:parentActivityName=".StudentMenuActivity" />
+        <activity
+            android:name=".FeedbackStudentActivity"
+            android:exported="false"
+            android:label="Feedback"
+            android:parentActivityName=".StudentMenuActivity" />
+        <activity
+            android:name=".StudentMenuActivity"
+            android:exported="false"
+            android:label="Main Page"
+            android:parentActivityName=".loginactivity" />
+        <activity
+            android:name=".menuactivity"
+            android:exported="false"
+            android:label="Main Page"
+            android:parentActivityName=".RegisterActivity" />
+        <activity
+            android:name=".loginactivity"
+            android:exported="false"
+            android:label="secondactivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="secondactivity1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".splashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".FirebaseMessagingService"
+            android:exported="true"
+            android:permission="TODO"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

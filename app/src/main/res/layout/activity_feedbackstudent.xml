@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.FeedbackStudentActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#9F7F33"
+            android:orientation="vertical"
+            android:padding="20dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-54dp">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/eczar_medium"
+                android:gravity="center"
+                android:text="FEEDBACK"
+                android:textColor="#fff"
+                android:textColorHint="#F4EFEF"
+                android:textSize="55sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:foregroundGravity="center"
+                app:srcCompat="@drawable/feed" />
+
+            <EditText
+                android:id="@+id/feedbackmessage"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#fff"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Enter Your Feedback"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:padding="5dp"
+                android:textColor="#0C0C0C"
+                android:textColorHint="#131313" />
+
+            <Button
+                android:id="@+id/sendfeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="#804634"
+                android:text="Send Feedback"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

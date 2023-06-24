@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="center"
+    tools:context="com.example.myapplication.SpecialNotesStudentActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9F7F33"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-54dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/eczar_medium"
+            android:gravity="center"
+            android:text="SPECIAL NOTES"
+            android:textColor="#fff"
+            android:textColorHint="#F4EFEF"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            app:srcCompat="@drawable/notes" />
+
+        <EditText
+            android:id="@+id/specialname"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313" />
+
+        <EditText
+            android:id="@+id/specialnumber"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Room No"
+            android:inputType="textPersonName"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313" />
+
+        <EditText
+            android:id="@+id/specialmessage"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="#ffff"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Special Notes"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:padding="5dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313" />
+
+        <Button
+            android:id="@+id/sendspecialnotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="#804634"
+            android:text="Send Special Note"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

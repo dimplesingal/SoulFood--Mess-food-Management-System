@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="807dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/DaysUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Days"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/BreakfastUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#9F7F33"
+            android:gravity="center"
+            android:text="Breakfast"
+            android:textColor="#0C0C0C"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Breakfast4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:hint="Breakfast"
+            android:minHeight="48dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/breakfast5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:hint="Breakfast"
+            android:minHeight="48dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Breakfast6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:hint="Breakfast"
+            android:minHeight="48dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/LunchUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#9F7F33"
+            android:gravity="center"
+            android:text="Lunch"
+            android:textColor="#0C0C0C"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/Lunch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:hint="Lunch"
+            android:minHeight="48dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Lunch5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:hint="Lunch"
+            android:minHeight="48dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Lunch6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:hint="Lunch"
+            android:minHeight="48dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/SnacksUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#9F7F33"
+            android:gravity="center"
+            android:text="Snacks"
+            android:textColor="#0C0C0C"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Snacks3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:hint="Snacks"
+            android:minHeight="48dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Snacks4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:hint="Snacks"
+            android:minHeight="48dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/DinnerUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#9F7F33"
+            android:gravity="center"
+            android:text="Dinner"
+            android:textColor="#0C0C0C"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Dinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:hint="Dinner"
+            android:minHeight="48dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Dinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:hint="Dinner"
+            android:minHeight="48dp"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#131313"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/UpdateMenu"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#955744"
+            android:minHeight="48dp"
+            android:text="UPDATE "
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
